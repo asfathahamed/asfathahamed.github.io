@@ -1,75 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Asfath Ahamed - Front-End Developer</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asfath Ahamed | Technical Lead – Front-End Architecture</title>
+
   <style>
-    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background-color: #f9f9f9; color: #333; }
-    header { background-color: #007acc; color: white; padding: 40px 20px; text-align: center; }
-    header h1 { margin: 0; font-size: 2.5rem; }
-    header p { margin: 10px 0 0; font-size: 1.2rem; }
-    section { max-width: 900px; margin: 40px auto; padding: 0 20px; }
-    h2 { color: #007acc; border-bottom: 2px solid #007acc; display: inline-block; padding-bottom: 5px; }
-    ul { list-style-type: none; padding-left: 0; }
-    li { margin-bottom: 10px; }
-    footer { text-align: center; padding: 20px; background-color: #f1f1f1; margin-top: 50px; }
-    a { color: #007acc; text-decoration: none; }
-    a:hover { text-decoration: underline; }
+    :root {
+      --primary: #0a66c2;
+      --dark: #1f2933;
+      --light: #f5f7fa;
+      --text: #333;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: var(--light);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary), #004182);
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+      opacity: 0.95;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      color: var(--primary);
+      border-bottom: 3px solid var(--primary);
+      display: inline-block;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .role {
+      font-weight: bold;
+      color: var(--dark);
+    }
+
+    .company {
+      color: #555;
+      font-style: italic;
+    }
+
+    .contact a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background: #e5e7eb;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+      font-size: 0.9rem;
+    }
   </style>
 </head>
+
 <body>
 
+  <!-- HEADER -->
   <header>
     <h1>Asfath Ahamed</h1>
-    <p>Front-End Developer | Node.js | Aspiring Architect | Canada PR Candidate</p>
+    <p>
+      Technical Lead – Front-End Architecture | Senior React Developer<br />
+      Micro-Frontends · Node.js · Enterprise Platforms
+    </p>
   </header>
 
+  <!-- ABOUT -->
   <section>
     <h2>About Me</h2>
-    <p>I am a front-end developer with 13 years of experience, skilled in building scalable, high-quality web applications. I have recently started working with Node.js and am aiming to grow into an architect role. Currently, my wife and I are working towards obtaining Canadian PR.</p>
+    <p>
+      I am a Technical Lead – Front-End Architecture and Senior React Developer with
+      13+ years of experience delivering large-scale enterprise web platforms.
+      I specialize in ReactJS, TypeScript, Micro-Frontends, and Node.js-based orchestration layers.
+    </p>
+    <p>
+      I have a strong track record of leading cross-functional teams of 20+ engineers,
+      building reusable shared UI platforms, integrating secure microservices,
+      and delivering high-performance, production-grade applications.
+      I am currently seeking senior or lead front-end roles in Canada.
+    </p>
   </section>
 
+  <!-- SKILLS -->
   <section>
-    <h2>Experience</h2>
+    <h2>Technical Skills</h2>
     <ul>
-      <li><strong>Front-End Developer (13 years)</strong> – Specialized in modern front-end technologies and frameworks, delivering responsive and performant applications.</li>
-      <li><strong>Node.js Development</strong> – Experienced in backend integration, APIs, and server-side development to complement front-end expertise.</li>
-      <li><strong>Technical Leadership</strong> – Leading teams, architecting projects from scratch, and coordinating cross-team requirements.</li>
+      <li><strong>Front-End:</strong> ReactJS, TypeScript, Redux / Redux Saga, Next.js, Angular (8+), RxJS, Gatsby</li>
+      <li><strong>Architecture:</strong> Front-End Architecture, Micro-Frontends (Vite), Monorepos (Turborepo), Shared UI Libraries</li>
+      <li><strong>Backend & Integration:</strong> Node.js, RESTful APIs, Java Spring Boot Integration, RBAC</li>
+      <li><strong>Styling & Build:</strong> HTML5, CSS3, SASS/LESS, Styled Components, Webpack</li>
+      <li><strong>DevOps & Quality:</strong> Docker, Kubernetes, Jenkins, CI/CD, Git/GitHub, SonarQube, CodeQL</li>
+      <li><strong>Monitoring & Security:</strong> New Relic, Splunk, Azure Key Vault, Secure API Integration</li>
+      <li><strong>Testing:</strong> Jest, Jasmine, Karma</li>
+      <li><strong>Methodologies:</strong> Agile, Scrum</li>
     </ul>
   </section>
 
+  <!-- EXPERIENCE -->
   <section>
-    <h2>Skills</h2>
+    <h2>Professional Experience</h2>
+
+    <p class="role">Senior React Developer / Technical Lead – Front-End Architecture</p>
+    <p class="company">Cognizant – Mississauga, ON | Oct 2024 – Present (Client: John Hancock)</p>
     <ul>
-      <li>Front-End: HTML, CSS, JavaScript, React, Tailwind</li>
-      <li>Back-End: Node.js, REST APIs</li>
-      <li>Architecting & Project Planning</li>
-      <li>Version Control: Git, GitHub</li>
+      <li>Led 20+ engineers across front-end, API, and QA teams to deliver enterprise portals using ReactJS and Micro-Frontends (Vite).</li>
+      <li>Owned Node.js orchestration layer integrating Java Spring Boot microservices (Party, Plan, Document, Activity APIs).</li>
+      <li>Architected reusable Document Management Micro-Frontend consumed across B2C, B2B, and consolidated portals.</li>
+      <li>Implemented RBAC-based access control ensuring secure document access by role and user.</li>
+      <li>Developed high-performance features using ReactJS, TypeScript, Redux/Saga within a Turborepo monorepo.</li>
+      <li>Enforced quality and security using SonarQube, CodeQL, New Relic, and Azure Key Vault.</li>
+      <li>Improved cross-team reuse of platform modules, reducing duplicate development effort.</li>
+    </ul>
+
+    <p class="role">Senior React Developer</p>
+    <p class="company">Cognizant – Mississauga, ON / Chennai, India | Nov 2023 – Sep 2024</p>
+    <ul>
+      <li>Built privacy-compliant UI modules for Intuit’s Privacy Engineering (RoPA) platform.</li>
+      <li>Developed ReactJS and Next.js components focused on secure data handling.</li>
+      <li>Improved performance and observability using unit tests and Splunk monitoring.</li>
+    </ul>
+
+    <p class="role">Manager – Project / Senior Associate</p>
+    <p class="company">Cognizant – Chennai, India | Aug 2022 – Nov 2023</p>
+    <ul>
+      <li>Managed a team of 12 developers and established front-end engineering standards.</li>
+      <li>Delivered complex React-based features on schedule for enterprise clients.</li>
+    </ul>
+
+    <p class="role">Technical Lead (Angular)</p>
+    <p class="company">HCL Technologies – Chennai, India | May 2018 – Oct 2019</p>
+    <ul>
+      <li>Designed reusable Angular 8/9 components and testing standards using Jasmine/Karma.</li>
+    </ul>
+
+    <p class="role">Software Engineer / UI Developer</p>
+    <p class="company">India | 2012 – 2017</p>
+    <ul>
+      <li>Delivered responsive web applications for global clients including Cisco, Air France, L'Oréal, and Yves Rocher.</li>
+      <li>Worked with AngularJS, jQuery, HTML, CSS, and modern UI frameworks.</li>
     </ul>
   </section>
 
+  <!-- EDUCATION -->
   <section>
     <h2>Education</h2>
     <ul>
-      <li>Bachelor's in [Your Field] (if applicable)</li>
+      <li><strong>Bachelor of Computer Applications (BCA)</strong> – S.K.S.S Arts and Science College, Thiruppanandal, India</li>
+      <li><strong>Diploma in Web Designing</strong> – Elmaq Computer Center, Kumbakonam, India</li>
     </ul>
   </section>
 
+  <!-- LANGUAGES -->
   <section>
-    <h2>Personal</h2>
+    <h2>Languages</h2>
     <ul>
-      <li>Wife skilled in tailoring, aiming for Canadian PR together</li>
-      <li>Interest in creating professional web solutions and front-end architecture</li>
+      <li>English – Fluent</li>
+      <li>Tamil – Native</li>
     </ul>
   </section>
 
-  <section>
+  <!-- CONTACT -->
+  <section class="contact">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+    <p>Email: <a href="mailto:asfathahamed@gmail.com">asfathahamed@gmail.com</a></p>
+    <p>Location: Mississauga, Ontario, Canada</p>
     <p>GitHub: <a href="https://github.com/asfathahamed" target="_blank">github.com/asfathahamed</a></p>
   </section>
 
+  <!-- FOOTER -->
   <footer>
     <p>© <span id="year"></span> Asfath Ahamed. All rights reserved.</p>
   </footer>
